@@ -57,7 +57,7 @@ export default function CheckoutDetail() {
           <p className="text-lg color-palette-1 mb-20">
             Bank Account Name
             {' '}
-            <span className="payment-details">ElpofeStore Indonesia</span>
+            <span className="payment-details">ElprofeStore Indonesia</span>
           </p>
           <p className="text-lg color-palette-1 mb-20">
             Bank Number
