@@ -129,7 +129,7 @@ export default function CompleteCheckout() {
                 <a className="btn btn-dashboard fw-medium text-lg text-white rounded-pill mb-16"
                     href="../member/overview.html" role="button">My
                     Dashboard</a>
-                <a className="btn btn-whatsapp fw-medium text-lg color-palette-1 rounded-pill" href="/#"
+                <a className="btn btn-whatsapp fw-medium text-lg color-palette-1 rounded-pill" href="https://wa.me/62885972586669"
                     role="button">WhatsApp
                     ke Admin</a>
             </div>
