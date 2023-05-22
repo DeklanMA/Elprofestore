@@ -39,13 +39,13 @@ export default function Footer() {
                   </svg>
                 </a>
                 <p className="mt-30 text-lg color-palette-1 mb-30">
-                  ElpofeStore siap membantu kamu
+                  ElprofeStore siap membantu kamu
                   <br />
 {' '}
 untuk menjadi pemenang sejati
                 </p>
                 <p className="mt-30 text-lg color-palette-1 mb-30">
-                  Copyright 2021. All Rights Reserved.
+                  Copyright 2023. All Rights Reserved.
                 </p>
               </div>
               <div className="col-lg-8 mt-lg-0 mt-20">
@@ -127,18 +127,18 @@ untuk menjadi pemenang sejati
                     <ul className="list-unstyled">
                       <li className="mb-6">
                         <a
-                          href="mailto: elpofestore@gmail.com"
+                          href="mailto: elprofestore@gmail.com"
                           className="text-lg color-palette-1 text-decoration-none"
                         >
-                          elpofestore@gmail.com
+                          elprofestore@gmail.com
                         </a>
                       </li>
                       <li className="mb-6">
                         <a
-                          href="mailto: elpofestore@gmail.com"
+                          href="https://www.instagram.com/ekii.sm/"
                           className="text-lg color-palette-1 text-decoration-none"
                         >
-                          elpofestore@gmail.com
+                          @ekii.sm
                         </a>
                       </li>
                       <li className="mb-6">
