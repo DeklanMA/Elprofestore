@@ -152,7 +152,7 @@ untuk menjadi pemenang sejati
                       </li>
                       <li className="mb-6">
                         <a
-                          href="tel: 085972586669"
+                          href="https://wa.me/62885972586669"
                           className="text-lg color-palette-1 text-decoration-none"
                         >
                           +62 859-7258-6669
