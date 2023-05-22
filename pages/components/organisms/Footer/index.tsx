@@ -39,7 +39,7 @@ export default function Footer() {
                   </svg>
                 </a>
                 <p className="mt-30 text-lg color-palette-1 mb-30">
-                  ElpofeStore siap membantu kamu menjadi proplayer!
+                  ElpofeStore siap membantu kamu
                   <br />
 {' '}
 untuk menjadi pemenang sejati
