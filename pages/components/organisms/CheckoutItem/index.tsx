@@ -11,7 +11,7 @@ export default function CheckoutItem() {
           Mobile Legends:
           <br />
 {' '}
-The New Battle 2021
+The New Battle 2023
         </p>
         <p className="color-palette-2 m-0">Category: Mobile</p>
       </div>
