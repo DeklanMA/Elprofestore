@@ -1,13 +1,13 @@
 <h1 align="center">
-  Elprofestore Dashboard - Elprofestore Administrator Dashboard App + APIs
+  StoreGG Dashboard - StoreGG Administrator Dashboard App + APIs
 </h1>
 
 <p align="center">
-  The main website repo here <a href="https://github.com/DeklanMA/Pemweb13.github.io" target="_blank">Elprofestore Web</a>.
+  The main website repo here <a href="https://github.com/MuhammadAkbar11/storegg" target="_blank">StoreGG Web</a>.
 </p>
 <br>
 <p align="center">
-  <img src="![image](https://github.com/DeklanMA/Pemweb13.github.io/assets/93185535/ed94f7fc-e89c-4db5-aa5b-6b119f804a54)s" width="80%" />
+  <img src="https://raw.githubusercontent.com/MuhammadAkbar11/storegg-dashboard/main/docs/demo.png" width="80%" />
 </p>
 <br>
 
