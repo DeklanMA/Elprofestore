@@ -1,0 +1,42 @@
+<div class="form-group">
+  <label for="name">Name</label>
+
+  <select class="form-control select2bs4 <%= _.isError(formErrors?.name) && "is-invalid" %> w-100" name="name" id="name"
+    data-placeholder="Select name" required>
+    <option value="">
+      <!-- Replaced by data-placeholder -->
+    </option>
+    <% for (const name of BANK_NAMES) { %>
+    <option value="<%= name %>" <%= formData?.name === name && "selected" %>>
+      <%= name %>
+    </option>
+    <% } %>
+  </select>
+
+  <% if (_.isError(formErrors?.name)) { %>
+  <span class="invalid-feedback"><%= formErrors.name.message %></span>
+  <% } %>
+</div>
+
+<div class="form-group">
+  <label for="holder-name">Holder Name</label>
+
+  <input type="text" class="form-control <%= _.isError(formErrors?.holderName) && "is-invalid" %>" id="holder-name"
+    name="holderName" placeholder="Enter holder name" value="<%= formData?.holderName %>" required>
+
+  <% if (_.isError(formErrors?.holderName)) { %>
+  <span class="invalid-feedback"><%= formErrors.holderName.message %></span>
+  <% } %>
+</div>
+
+<div class="form-group">
+  <label for="holder-numbers">Holder Numbers</label>
+
+  <input type="text" class="form-control <%= _.isError(formErrors?.holderNumbers) && "is-invalid" %>"
+    id="holder-numbers" name="holderNumbers" placeholder="Enter holder numbers" value="<%= formData?.holderNumbers %>"
+    required>
+
+  <% if (_.isError(formErrors?.holderNumbers)) { %>
+  <span class="invalid-feedback"><%= formErrors.holderNumbers.message %></span>
+  <% } %>
+</div>

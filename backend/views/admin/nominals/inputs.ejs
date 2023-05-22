@@ -1,0 +1,41 @@
+<div class="form-group">
+  <label for="name">Name</label>
+
+  <select class="form-control select2bs4 <%= _.isError(formErrors?.name) && "is-invalid" %> w-100" name="name" id="name"
+    data-placeholder="Select name" required>
+    <option value="">
+      <!-- Replaced by data-placeholder -->
+    </option>
+    <% for (const name of NOMINAL_NAMES) { %>
+    <option value="<%= name %>" <%= formData?.name === name && "selected" %>>
+      <%= name %>
+    </option>
+    <% } %>
+  </select>
+
+  <% if (_.isError(formErrors?.name)) { %>
+  <span class="invalid-feedback"><%= formErrors.name.message %></span>
+  <% } %>
+</div>
+
+<div class="form-group">
+  <label for="quantity">Quantity</label>
+
+  <input type="number" class="form-control <%= _.isError(formErrors?.quantity) && "is-invalid" %>" id="quantity"
+    name="quantity" placeholder="Enter quantity" min="0" required value="<%= formData?.quantity ?? "0" %>">
+
+  <% if (_.isError(formErrors?.quantity)) { %>
+  <span class="invalid-feedback"><%= formErrors.quantity.message %></span>
+  <% } %>
+</div>
+
+<div class="form-group">
+  <label for="price">Price</label>
+
+  <input type="number" class="form-control <%= _.isError(formErrors?.price) && "is-invalid" %>" id="price" name="price"
+    placeholder="Enter price" min="0" required value="<%= formData?.price ?? "0" %>">
+
+  <% if (_.isError(formErrors?.price)) { %>
+  <span class="invalid-feedback"><%= formErrors.price.message %></span>
+  <% } %>
+</div>

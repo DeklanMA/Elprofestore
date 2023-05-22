@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('./partials/common-head-content.ejs') %>
+</head>
+
+<body>
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper m-0">
+    <%- include('./partials/header.ejs', { 
+      previousBreadcrumbs: [{ label: "Admin", href: "/admin" }] 
+    }) %>
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="error-page">
+        <h2 class="headline text-danger"><%= statusCode %></h2>
+
+        <div class="error-content">
+          <h3><i class="fas fa-exclamation-triangle text-danger"></i> Oops! Something went wrong.</h3>
+
+          <p>
+            We will work on fixing that right away.
+            Meanwhile, you may <a href="/admin">return to index</a>.
+          </p>
+        </div>
+      </div>
+      <!-- /.error-page -->
+
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+</body>
+
+<%- include('./partials/footer.ejs', { className: "m-0" }) %>
+
+<%- include('./partials/common-scripts.ejs') %>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('./partials/common-head-content.ejs') %>
+</head>
+
+<body>
+  <div class="content-wrapper m-0">
+    <%- include('./partials/header.ejs', { 
+      previousBreadcrumbs: [{ label: "Admin", href: "/admin" }] 
+    }) %>
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="error-page">
+        <h2 class="headline text-warning"><%= statusCode %></h2>
+
+        <div class="error-content">
+          <h3><i class="fas fa-exclamation-triangle text-warning"></i> Oops! Page not found.</h3>
+
+          <p>
+            We could not find the page you were looking for.
+            Meanwhile, you may <a href="/admin">return to index</a>.
+          </p>
+        </div>
+        <!-- /.error-content -->
+      </div>
+      <!-- /.error-page -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+</body>
+
+<%- include('./partials/footer.ejs', { className: "m-0" }) %>
+
+<%- include('./partials/common-scripts.ejs') %>
+
+</html>

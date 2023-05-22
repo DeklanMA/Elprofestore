@@ -1,0 +1,69 @@
+<!-- Main Sidebar Container -->
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
+  <!-- Brand Logo -->
+  <a href="/admin" class="brand-link">
+    <img src="/favicon.ico" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+    <span class="brand-text font-weight-light">Admin StoreGG</span>
+  </a>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <!-- Sidebar Menu -->
+    <nav class="mt-2">
+      <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+        <li class="nav-item">
+          <a href="/admin" class="nav-link <%= req.originalUrl === "/admin" && "active" %>">
+            <i class="nav-icon fas fa-home"></i>
+            <p>Home</p>
+          </a>
+        </li>
+
+        <li class="nav-header">Master</li>
+        <li class="nav-item">
+          <a href="/admin/categories" class="nav-link <%= req.originalUrl.includes("/admin/categories") && "active" %>">
+            <i class="nav-icon far fa-calendar-alt"></i>
+            <p>Categories</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/admin/nominals" class="nav-link <%= req.originalUrl.includes("/admin/nominals") && "active" %>">
+            <i class="nav-icon fas fa-tasks"></i>
+            <p>Nominals</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/admin/vouchers" class="nav-link <%= req.originalUrl.includes("/admin/vouchers") && "active" %>">
+            <i class="nav-icon far fa-image"></i>
+            <p>Vouchers</p>
+          </a>
+        </li>
+
+        <li class="nav-header">Payment Methods</li>
+        <li class="nav-item">
+          <a href="/admin/banks" class="nav-link <%= req.originalUrl.includes("/admin/banks") && "active" %>">
+            <i class="nav-icon fas fa-money-check"></i>
+            <p>Banks</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/admin/payment-methods"
+            class="nav-link <%= req.originalUrl.includes("/admin/payment-methods") && "active" %>">
+            <i class="nav-icon fas fa-money-check-alt"></i>
+            <p>Payment Methods</p>
+          </a>
+        </li>
+
+        <li class="nav-header">Transactions</li>
+        <li class="nav-item">
+          <a href="/admin/transactions"
+            class="nav-link <%= req.originalUrl.includes("/admin/transactions") && "active" %>">
+            <i class="nav-icon fas fa-shopping-cart"></i>
+            <p>Transactions</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- /.sidebar-menu -->
+  </div>
+  <!-- /.sidebar -->
+</aside>
