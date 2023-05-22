@@ -39,7 +39,7 @@ export default function Footer() {
                   </svg>
                 </a>
                 <p className="mt-30 text-lg color-palette-1 mb-30">
-                  StoreGG membantu gamers
+                  ElpofeStore siap membantu kamu menjadi proplayer!
                   <br />
 {' '}
 untuk menjadi pemenang sejati
@@ -127,35 +127,35 @@ untuk menjadi pemenang sejati
                     <ul className="list-unstyled">
                       <li className="mb-6">
                         <a
-                          href="mailto: hi@store.gg"
+                          href="mailto: elpofestore@gmail.com"
                           className="text-lg color-palette-1 text-decoration-none"
                         >
-                          hi@store.gg
+                          elpofestore@gmail.com
                         </a>
                       </li>
                       <li className="mb-6">
                         <a
-                          href="mailto: team@store.gg"
+                          href="mailto: elpofestore@gmail.com"
                           className="text-lg color-palette-1 text-decoration-none"
                         >
-                          team@store.gg
+                          elpofestore@gmail.com
                         </a>
                       </li>
                       <li className="mb-6">
                         <a
-                          href="http://maps.google.com/?q=Pasific 12,
-                                        Jakarta Selatan"
+                          href="https://goo.gl/maps/pcgis163pS5Y6u297,
+                                        Ciater, Subang"
                           className="text-lg color-palette-1 text-decoration-none"
                         >
-                          Pasific 12, Jakarta Selatan
+                          Ciater, Kabupaten Subang
                         </a>
                       </li>
                       <li className="mb-6">
                         <a
-                          href="tel: 02111229090"
+                          href="tel: 085972586669"
                           className="text-lg color-palette-1 text-decoration-none"
                         >
-                          021 - 1122 - 9090
+                          +62 859-7258-6669
                         </a>
                       </li>
                     </ul>
